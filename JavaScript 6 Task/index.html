@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Q 1 -->
+
+    let num = +prompt("Enter a positive number:");
+    if (num > 0) console.log(num, Math.round(num), Math.floor(num), Math.ceil(num));
+    else console.log("Invalid number!");
+
+    <!-- Q 2 -->
+
+    let num = +prompt("Enter a negative number:");
+    if (num < 0) console.log(num, Math.round(num), Math.floor(num), Math.ceil(num)); else console.log("Please enter a
+        valid negative number."); 
+        
+        <!--Q 3 -->
+
+        let num = +prompt("Enter a positive floating number:");
+        if (num > 0 && !Number.isInteger(num)) console.log(num, Math.round(num), Math.floor(num), Math.ceil(num));
+        else console.log("Please enter a valid positive floating number.");
+
+        <!-- Q 4 -->
+
+
+        <script src="app.js"></script>
+
+
+
+
+
+</body>
+
+</html>

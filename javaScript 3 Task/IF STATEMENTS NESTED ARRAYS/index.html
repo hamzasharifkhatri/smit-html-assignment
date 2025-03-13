@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Q 1 -->
+
+    let studentNames = [];
+
+    <!-- Q 2 -->
+
+    let studentNames = new Array();
+
+    <!-- Q 3 -->
+
+    let stringsArray = ["Apple", "Banana", "Cherry", "Mango"];
+
+    <!-- Q 4 -->
+
+    let numbersArray = [10, 20, 30, 40, 50];
+
+    <!-- Q 5 -->
+
+    let booleanArray = [true, false, true, false];
+
+    <!-- Q 6 -->
+
+    let mixedArray = [42, "Hello", true, null, { name: "John" }, [1, 2, 3]];
+
+    <!-- Q 7 -->
+
+    let mobileNetworksInPakistan = ["Jazz", "Telenor", "Zong", "Ufone"];
+
+    <!-- Q 8 -->
+
+    let educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+    // Loop through the array and display each qualification
+    educationQualifications.forEach(function(qualification) {
+    document.write(qualification + "<br>");
+    });
+
+    <!-- Q 9 -->
+
+    // Declare an empty array to store top movies of 2015
+    let topMovies2015 = [];
+
+    // Add movies one by one
+    topMovies2015.push("Mad Max: Fury Road");
+    topMovies2015.push("Star Wars: The Force Awakens");
+    topMovies2015.push("Inside Out");
+    topMovies2015.push("The Revenant");
+    topMovies2015.push("Jurassic World");
+
+    // Display the elements of the array
+    document.write("Top Movies of 2015: <br>");
+    topMovies2015.forEach(function(movie) {
+    document.write(movie + "<br>");
+    });
+
+    // Display the length of the array
+    document.write("<br>Total number of movies: " + topMovies2015.length);
+
+    <!-- Q 10 -->
+
+    // Declare and initialize an array with favorite cars
+    let favoriteCars = ["Tesla", "BMW", "Audi", "Mercedes", "Lamborghini"];
+
+    // a. First index of the array
+    document.write("First index of the array: 0 <br>");
+
+    // b. Car at first index of the array
+    document.write("Car at first index: " + favoriteCars[0] + "<br>");
+
+    // c. Last index of the array
+    let lastIndex = favoriteCars.length - 1;
+    document.write("Last index of the array: " + lastIndex + "<br>");
+
+    // d. Car at last index of the array
+    document.write("Car at last index: " + favoriteCars[lastIndex] + "<br>");
+
+    <!-- Q 11 -->
+
+    // Declare and initialize arrays for student names and scores
+    let studentNames = ["Ali", "Sara", "Ahmed"];
+    let studentScores = [450, 480, 400];
+
+    // Assuming total marks are 500 for each student
+    let totalMarks = 500;
+
+    // Display the scores and percentages of the students
+    for (let i = 0; i < studentNames.length; i++) { let score=studentScores[i]; let percentage=(score / totalMarks) *
+        100; document.write(studentNames[i] + " scored: " + score + " out of " + totalMarks + "<br>" );
+        document.write("Percentage: " + percentage.toFixed(2) + " %<br><br>");
+        }
+
+        <!-- Q 12 -->
+
+        // Initialize an array with color names
+        let colors = ["Red", "Blue", "Green", "Yellow", "Pink"];
+        document.write("Initial Colors: " + colors.join(", ") + "<br><br>");
+
+        // a. Ask the user what color they want to add to the beginning and add that color to the beginning of the array
+        let colorToAddToBeginning = prompt("Enter the color you want to add to the beginning:");
+        colors.unshift(colorToAddToBeginning);
+        document.write("Updated Colors after adding to beginning: " + colors.join(", ") + "<br><br>");
+
+        // b. Ask the user what color they want to add to the end and add that color to the end of the array
+        let colorToAddToEnd = prompt("Enter the color you want to add to the end:");
+        colors.push(colorToAddToEnd);
+        document.write("Updated Colors after adding to end: " + colors.join(", ") + "<br><br>");
+
+        // c. Add two more colors to the beginning of the array
+        let color1ToAdd = prompt("Enter the first color you want to add to the beginning:");
+        let color2ToAdd = prompt("Enter the second color you want to add to the beginning:");
+        colors.unshift(color1ToAdd, color2ToAdd);
+        document.write("Updated Colors after adding two colors to beginning: " + colors.join(", ") + "<br><br>");
+
+        // d. Delete the first color in the array
+        colors.shift();
+        document.write("Updated Colors after deleting the first color: " + colors.join(", ") + "<br><br>");
+
+        // e. Delete the last color in the array
+        colors.pop();
+        document.write("Updated Colors after deleting the last color: " + colors.join(", ") + "<br><br>");
+
+        // f. Ask the user at which index they want to add a color and color name, then add the color to the desired
+        position
+        let indexToAdd = prompt("At which index do you want to add a color?");
+        let colorToAddAtIndex = prompt("Enter the color you want to add at index " + indexToAdd + ":");
+        colors.splice(indexToAdd, 0, colorToAddAtIndex);
+        document.write("Updated Colors after adding at index " + indexToAdd + ": " + colors.join(", ") + "<br><br>");
+
+        // g. Ask the user at which index they want to delete color(s) and how many colors they want to delete
+        let indexToDelete = prompt("At which index do you want to delete color(s)?");
+        let numberOfColorsToDelete = prompt("How many colors do you want to delete?");
+        colors.splice(indexToDelete, numberOfColorsToDelete);
+        document.write("Updated Colors after deleting color(s) from index " + indexToDelete + ": " + colors.join(", ") +
+        "<br><br>");
+
+        <!-- Q 13 -->
+
+        // Declare and initialize an array with student scores
+        let studentScores = [85, 92, 78, 88, 95, 70, 89];
+
+        // Sort the array in ascending order
+        studentScores.sort(function(a, b) {
+        return a - b; // Sorting in ascending order
+        });
+
+        // Display the sorted array
+        document.write("Sorted student scores in ascending order: " + studentScores.join(", "));
+
+        <!-- Q 14 -->
+
+        // Declare and initialize the fruits array
+        var fruits = ["strawberry", "apple", "orange", "banana"];
+
+        // Sort the array in alphabetical order
+        fruits.sort();
+
+        // Display the sorted array
+        document.write("Sorted fruits array: " + fruits.join(", "));
+
+        <!-- Q 15 -->
+
+        // Declare and initialize the cities array
+        let cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"];
+
+        // Copy the first 3 elements from cities array to selectedCities array
+        let selectedCities = cities.slice(0, 3); // Using slice to copy elements
+
+        // Display the selectedCities array
+        document.write("Selected Cities: " + selectedCities.join(", "));
+
+        <!-- Q 16 -->
+
+        // Declare and initialize the array
+        var arr = ["This ", " is ", " my ", " Dog"];
+
+        // Create a single string from the array
+        var result = arr.join(""); // Using join to combine elements without any separator
+
+        // Display the result
+        document.write("The combined string: " + result);
+
+        <!-- Q 17 -->
+
+        // Create an empty array to act as a FIFO queue
+        let fifoQueue = [];
+
+        // Add values to the array one by one using push() method
+        fifoQueue.push("Apple");
+        fifoQueue.push("Banana");
+        fifoQueue.push("Cherry");
+
+        // Display the current queue
+        document.write("Current FIFO Queue: " + fifoQueue.join(", ") + "<br>");
+
+        // Access and remove values in the FIFO order using shift() method
+        let firstOut = fifoQueue.shift(); // Removes "Apple" (first element)
+        let secondOut = fifoQueue.shift(); // Removes "Banana" (next element)
+
+        // Display the removed values
+        document.write("First removed value: " + firstOut + "<br>");
+        document.write("Second removed value: " + secondOut + "<br>");
+
+        // Display the remaining queue
+        document.write("Remaining FIFO Queue: " + fifoQueue.join(", ") + "<br>");
+
+        <!-- Q 18 -->
+
+        // Create an empty array to act as a LIFO stack
+        let lifoStack = [];
+
+        // Add values to the array one by one using push() method
+        lifoStack.push("Apple");
+        lifoStack.push("Banana");
+        lifoStack.push("Cherry");
+
+        // Display the current stack
+        document.write("Current LIFO Stack: " + lifoStack.join(", ") + "<br>");
+
+        // Access and remove values in the LIFO order using pop() method
+        let lastOut = lifoStack.pop(); // Removes "Cherry" (last element)
+        let secondLastOut = lifoStack.pop(); // Removes "Banana" (next last element)
+
+        // Display the removed values
+        document.write("First removed value (Last In): " + lastOut + "<br>");
+        document.write("Second removed value: " + secondLastOut + "<br>");
+
+        // Display the remaining stack
+        document.write("Remaining LIFO Stack: " + lifoStack.join(", ") + "<br>");
+
+        <!-- Q 19 -->
+
+        // Declare and initialize the array of phone manufacturers
+        let phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+        // Create a dropdown (select) menu and populate it with options from the array
+        document.write('<select>'); // Start the select tag
+            document.write('<option value="">Select a Phone Manufacturer</option>'); // Default option
+
+            // Loop through the array and create an option for each manufacturer
+            for (let i = 0; i < phoneManufacturers.length; i++) { document.write('<option
+                value="' + phoneManufacturers[i] + '">' + phoneManufacturers[i] + '</option>');
+                }
+
+                document.write('</select>'); // Close the select tag
+
+        <!-- Q 20 -->
+
+        // Declare and initialize an empty multidimensional array
+        let multiArray = [];
+
+        // Adding arrays to the multidimensional array
+        multiArray[0] = ["Apple", "Banana", "Cherry"]; // First sub-array
+        multiArray[1] = [10, 20, 30]; // Second sub-array
+        multiArray[2] = ["Red", "Blue", "Green"]; // Third sub-array
+
+        // Display the multidimensional array
+        document.write("Multidimensional Array: <br>");
+        document.write(JSON.stringify(multiArray)); // Displaying the array as a string
+
+        <!-- Q 21 -->
+
+        // Declare and initialize a multidimensional array representing the matrix
+        let matrix = [
+        [1, 2, 3], // First row
+        [4, 5, 6], // Second row
+        [7, 8, 9] // Third row
+        ];
+
+        // Display the matrix in the browser
+        document.write("Matrix: <br>");
+        document.write(JSON.stringify(matrix)); // Displaying the matrix as a string
+
+                            <!-- END -->
+</body>
+
+</html>

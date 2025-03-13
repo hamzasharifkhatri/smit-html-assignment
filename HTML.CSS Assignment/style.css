@@ -1,0 +1,126 @@
+.about {
+  background-color: gold;
+  display: flex;
+
+}
+
+.abc {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+
+}
+
+.ab {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  text-decoration-color: #333;
+  border-radius: 4px;
+  margin-top: 16px;
+  color:#fff;
+}
+
+.picer {
+  width: 60%;
+}
+
+
+.card-group {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 10% 10%;
+
+
+}
+.hd{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+.card {
+  display: flex;
+  width: 20%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px;
+  justify-content: center;
+  align-items: center;
+
+}
+.card-abc {
+  text-align: left ;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10%;
+  font-size: medium;
+}
+.cards-pic {
+  width: 70%;
+  height: auto;
+}
+.card-abc h4{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card-abc p{
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.card-abc button{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  text-decoration-color: #333;
+  border-radius: 4px;
+  margin-top: 16px;
+  color:#fff;
+}
+.footer {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.latest {
+  width: 30%;
+
+}
+.footer-abc {
+  display:flex;
+  align-items: center;
+  line-height: 0%;
+
+}
+.footer-img {
+  width: 40px;
+
+}
+.posts-text{
+  padding-left: 10px;
+
+}
+.about-footer{
+width: 20%;
+pa
+}
+.us-p{
+  font-size: small;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+}
+.contant-us{
+  width: 30%;
+  display: inline;
+}
+.us-pic{
+  width: 10%;
+  padding: 5px 0px;
+}

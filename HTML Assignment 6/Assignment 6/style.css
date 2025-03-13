@@ -1,0 +1,112 @@
+/* -------------------------------------------------- Navbar -------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    white-space: nowrap;
+    gap: 20px;
+    display: left;
+  }
+  
+  /* -------------------------------------------------- About -------------------------------------------------- */
+  
+  .about {
+    display: flex;
+    padding: 40px;
+    background-color: rgb(231, 231, 231);
+    justify-content: space-around;
+  }
+  .div-left {
+    width: 45%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
+  p {
+    color: gray;
+  }
+  .div-right {
+    padding-top: 20px;
+    width: 35%;
+  }
+  button {
+    background-color: darkorange;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+  }
+  
+  /* -------------------------------------------------- Cards -------------------------------------------------- */
+  
+  .card-section {
+    padding: 70px 0px;
+  }
+  .heading {
+    padding-left: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cards-inline {
+    padding: 0px 150px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 20%;
+    text-align: justify;
+  }
+  
+  /* -------------------------------------------------- Footer -------------------------------------------------- */
+  
+  .footer {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .latest-post {
+    width: 30%;
+  }
+  .post {
+    display: flex;
+    align-items: center;
+    line-height: 0%;
+  }
+  .post-text {
+    padding-left: 10px;
+  }
+  .about-footer {
+    width: 30%;
+  }
+  .about-p {
+    font-size: small;
+    text-align: justify;
+  }
+  .connected {
+    width: 30%;
+    display: inline;
+  }
+  .sm-images {
+    width: 10%;
+    padding: 5px 0px;
+  }
+  .try{
+    display: inline-block;
+  }
